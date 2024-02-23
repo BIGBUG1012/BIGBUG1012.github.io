@@ -10796,3 +10796,15 @@ header.masthead .post-heading .meta a {
     font-size: 2.25rem;
   }
 }
+
+.pagination>li>a:focus,
+.pagination>li>a:hover {
+  color: white;
+  background-color: #0A39A8;
+  border-color: #ddd;
+}
+
+.pagination>li>a {
+  background-color: white;
+  color: black;
+}
